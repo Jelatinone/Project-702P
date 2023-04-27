@@ -14,6 +14,12 @@ public class Beepers extends Animal
         this.B_ExtraneousWord = ExtraWord;
     }
 
+    public String getExtraneousWord()
+    {
+        return B_ExtraneousWord;
+    }
+
+
     public String toString()
     {
         return new StringBuilder("Beeper's name is:  ").append(super.getName()).
